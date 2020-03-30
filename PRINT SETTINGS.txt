@@ -1,0 +1,37 @@
+Critical CURA 4.5.0 Settings:
+Default unless noted below
+
+PETG Filament
+
+Quality
+	Initial Layer Height = 0.3
+	Layer Height = 0.3
+	Line Width = 0.7 (use a 0.8mm nozzle)
+Shell	
+	Wall line count = 3
+	Top Layers = 1
+	Bottom Layers = 1
+	Initial Bottom Layers = 1
+	Fill Gaps Between Walls = Nowhere
+Infill	
+	Infill Density = 0
+Material
+	Printing Temperature = 235 (your plastic might be different)
+	Build Plate Temperature = 80
+	Material Flow = 100%
+	Inner Wall Flow = 110%
+	Tom/Bottom Flow = 110%
+Speed
+	Outer Wall Speed = 50 (your machine might be different)
+	Inner Wall Speed = 50
+	Top/Bottom Speed = 30
+Travel
+	Max Comb Distance With No Retract = 10mm
+Cooling
+	Fan Speed = 50% (your machine may be different)
+Build Plate Adhesion
+	Build Plate Adhesion Type = None	
+
+
+For dual nozzle drop the stack down until just the last 3 or 4 layers are shown. Approximately -6.8mm. 
+Adjust the Z height very very slightly until the first layer of PETG on top of the PLA on each stickyouty nubs is smaller than the top layer of the head band below. 
